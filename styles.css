@@ -1,7 +1,18 @@
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: "neue machina regular";
+    src: url(./Assets/PPNeueMachina-PlainRegular.otf);
+}
+
+/* TYPOGRAPHY END */
+
+/* NAVIGATION */
+
 nav {
-    background-color: #fff;
+    background-color: #f8f9fa;
     border-bottom: 1px solid #ddd;
-    padding: 10px 20px;
+    padding: 2em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,16 +21,43 @@ nav {
 nav a {
     color: #333;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 50px;
+    margin-right: 1.5em;
+    font-size: 24px;
+    line-height: 40%;
 }
 
 nav a:hover {
-    color: #000;
+    padding-bottom: 3px;
+    border-bottom: 4px solid #008b8b;
 }
 
 nav .logo {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bold;
     color: #333;
+    padding-bottom: 3px; /* Adjust the value as needed */
+    border-bottom: 4px solid #008b8b; /* Adjust the value as needed */
+}
+
+/* NAVIGATION END */
+
+body {
+    font-family: "neue machina regular";
+    margin: 0;
+    padding: 0;
+    background-color: #FFFDD0;
+}
+
+.huge-text {
+    font-size: 1500%;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the top */
+    height: 100vh;
+    text-align: center;
+    padding-top: 2em; /* Add padding to move the text down slightly */
 }
