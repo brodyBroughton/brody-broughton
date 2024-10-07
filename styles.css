@@ -3,6 +3,9 @@
 @font-face {
     font-family: "neue machina regular";
     src: url(./Assets/PPNeueMachina-PlainRegular.otf);
+
+    font-family: "mori";
+    src: url(./Assets/PPMori-Regular.otf);
 }
 
 /* TYPOGRAPHY END */
@@ -42,7 +45,7 @@ nav .logo {
 /* NAVIGATION END */
 
 body {
-    font-family: "neue machina regular";
+    font-family: "mori";
     margin: 0;
     padding: 0;
     background-color: #FFFDD0;
