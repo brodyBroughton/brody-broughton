@@ -13,27 +13,46 @@
 
 /* TYPOGRAPHY END */
 
+/* SCREEN ADJUSTMENTS */
+@media only screen and (max-width: 800px) {
+    .huge-text {
+        font-weight: 100;
+    }
+}
+/*@media screen and (max-width: 50) {
+    .huge-text {
+        font-weight: 100;
+    }
+}*/
+
+/* SCREEN ADJUSTMENTS END */
+
 /* NAVIGATION */
 
 nav {
     background-color: #f8f9fa;
     border-bottom: 1px solid #ddd;
-    padding: 2em;
+    padding: .1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo {
-    width: 5%;
-    height: 5%;
+    padding-left: 1.5rem;
+}
+
+#nav-name {
+    font-size: 2.3rem;
+    margin-right: auto; /* This will push the element to the left */
+    margin-left: -10em; /* Adjust this value to move it closer to the PNG */
 }
 
 nav a {
     color: #333;
     text-decoration: none;
     margin-right: 1.5em;
-    font-size: 24px;
+    font-size: 2rem;
     line-height: 40%;
     cursor: pointer;
 }

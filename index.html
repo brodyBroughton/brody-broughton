@@ -8,8 +8,13 @@
 </head>
 <body>
     <nav>
-        <img class="logo" src="motorcycle-black-left.png">
-        <div class="border-gradient only-bottom">Brody Broughton</div>
+        <picture>
+            <source srcset="motorcycle-black-left.png" media="(min-width: 75em)">
+            <source srcset="s-motorcycle-black-left.png" media="(min-width: 40em)">
+            <img class="logo" src="motorcycle-black-left.png" alt="Motorcycle icon."
+                width="20%" height="20%" loading="lazy" decoding="async">
+        </picture>
+        <div id="nav-name" class="border-gradient only-bottom">Brody Broughton</div>
         <div>
             <a class="border-gradient only-bottom" href="#about">About</a>
             <a class="border-gradient only-bottom" href="#work">Work</a>
